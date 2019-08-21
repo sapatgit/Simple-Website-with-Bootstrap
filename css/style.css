@@ -29,13 +29,13 @@ body {
 
 /*Tabbable Content*/
 .tabbable iframe{
-	padding: 10px;
+	padding: 5px;
 }
 .tabbable h5{
-	padding: 10px;
+	padding: 5px;
 }
 .tabbable p{
-	padding: 10px;
+	padding: 5px;
 	text-align: justify;
 }
 .icons {
@@ -44,8 +44,8 @@ body {
 	padding-right: 10px;
 }
 .tabpane-img {
-	height: 250px;
-	width: 250px;
+	height: 50%;
+	width: 50%;
 }
 
 /*footer*/
