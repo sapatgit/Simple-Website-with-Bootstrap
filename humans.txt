@@ -3,7 +3,8 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <name> Saptarshi Majumdar
+    <role> Designer
 
 # THANKS
 
