@@ -149,7 +149,7 @@
     <section class="container">
       <section class="row">
         <!-- tabs starts -->
-        <section class="col-lg-6 tabbable">
+        <section class="col-sm-6 tabbable">
           <!-- tab-links starts-->
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
@@ -164,25 +164,21 @@
             <!--tab1 starts -->
             <section class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
               <section class="media">
-                <section class="mapContainer">
-                  <section id="map"></section>
-                </section>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.094202516544!2d77.569378!3d13.002297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0358b0e661e923b!2sWorld+Wide+Fund+For+Nature+India!5e0!3m2!1sen!2sin!4v1566418339214!5m2!1sen!2sin" width="50%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
-                
                 <section class="media-body">
                   <h5 class="mt-0 capitalize">reach out</h5>
                   <p class="capitalize"><strong>address: </strong>3rd floor, 116, margosa rd, malleshwaram, bengaluru, karnataka 560003</p>
                   <p><img src="img/call.svg" alt="call" class="icons">(080) – 2227 2484</p>
                   <p><img src="img/mail.svg" alt="mail" class="icons">queries@care.com</p>
                   <!-- button trigger modal -->
-                  <button type="button" class="btn btn-primary capitalize" id="tab-button" data-toggle="modal"  data-target="#Modal">or mark your presence here</button>
+                  <button type="button" class="btn btn-primary capitalize" id="tab-button" data-toggle="modal" data-target="#Modal">mark your <br/>presence here</button>
                   <!-- modal starts -->
                   <section class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                     <section class="modal-dialog" role="document">
                       <section class="modal-content">
                         <section class="modal-header">
                           <h5 class="modal-title capitalize" id="ModalLabel">help us reach you</h5>
-                          <button type="button" class="Close" data-dismiss="modal" aria-label="Close">
+                          <button class="btn btn-danger"type="button" class="Close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </section>
@@ -222,14 +218,14 @@
           </section> <!-- tab-content ends-->
         </section> <!-- tabs ends -->
         <!--column for three rows starts -->
-        <section class="col-lg-6">
+        <section class="col-sm-6">
           <!-- accordions starts -->
           <section class="accordion" id="accordionCards">
             <!--accordion1 starts -->
             <section class="card">
               <section class="card-header" id="headingOne">
                 <h2 class="mb-0">
-                  <button class="btn btn-link uppercase" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">our vision</button>
+                  <button class="btn btn-link uppercase" id="no-decoration" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >our vision</button>
                 </h2>
               </section>
               <section id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionCards">
@@ -243,7 +239,7 @@
             <section class="card">
               <section class="card-header" id="headingTwo">
                 <h2 class="mb-0">
-                  <button class="btn btn-link collapsed uppercase" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">our story</button>
+                  <button class="btn btn-link collapsed uppercase" id="no-decoration" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">our story</button>
                 </h2>
               </section>
               <section id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionCards">
@@ -257,7 +253,7 @@
             <section class="card">
               <section class="card-header" id="headingThree">
                 <h2 class="mb-0">
-                  <button class="btn btn-link collapsed uppercase" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">our partners</button>
+                  <button class="btn btn-link collapsed uppercase" id="no-decoration" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">our partners</button>
                 </h2>
               </section>
               <section id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionCards">
@@ -287,7 +283,7 @@
       <!-- about-us section starts -->
       <section class="col-lg-4">
         <h5 class="capitalize">about us</h5>
-        <p class="text-justify">Care was incorporated on April 1, 2001, with seed capital from the Rockefeller Foundation, Cisco Systems Foundation and three individual philanthropists. Our desire was to transform the world of philanthropy by looking at all human beings as members of a single, global community where everyone had the opportunity to build a life of dignity.</p>
+        <p class="text-justify">Care's desire was to transform the world of philanthropy by looking at all human beings as members of a single, global community where everyone had the opportunity to build a life of dignity.</p>
       </section>
       <!--about-us section ends-->
       <!-- footer-nav starts -->
@@ -317,16 +313,12 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>
   window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
-
   </script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <script src="js/bootstrap.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- scripts ends -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="js/map.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOe8D3P_nYaaDGHKKQeeCmmRbTpDWhBdg&callback=initMap" type="text/javascript"></script>
-  <!-- scripts ends -->
 </body>
 
 </html>
