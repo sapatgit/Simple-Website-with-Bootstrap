@@ -6,7 +6,12 @@
 body {
 	font-family: 'Hepta Slab', serif;
 }
-
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
 /* Carousel */
 .imgCarousel img{
 	max-height: 600px;
@@ -28,13 +33,30 @@ body {
 }
 
 /*Tabbable Content*/
-.tabbable iframe{
+section > .card-header {
+	padding: 1px 8px;
+}
+#map{
+	height: 100%
+}
+.map-container {
+	height: 50%;
+	width: 50%;
+}
+#tab-button {
+	margin-bottom: 20px;
+}
+.card-nav{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.tabbable iframe {
 	padding: 5px;
 }
-.tabbable h5{
+.tabbable h5 {
 	padding: 5px;
 }
-.tabbable p{
+.tabbable p {
 	padding: 5px;
 	text-align: justify;
 }
@@ -61,6 +83,12 @@ ul.unstyled {
 	padding-left: 15px;
 	font-size: 16px;
 }
+.footer-link{
+	color: white;
+}
+.footer-link:hover{
+	color: white;
+}
 ul.inline {
 	list-style: none;
 	padding: 0;
@@ -73,3 +101,4 @@ ul.inline {
 	height: 30px;
 	width: 30px;
 }
+
